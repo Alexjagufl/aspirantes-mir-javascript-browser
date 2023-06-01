@@ -1,0 +1,26 @@
+.menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    cursor: pointer;
+  }
+  
+  .menu a {
+    text-decoration: none; 
+    color: inherit;
+  }
+  
+  .menu a.active {
+    background-color: gold;
+  }
+  
+  .menu .submenu {
+    display: none;
+    padding-left: 20px;
+  }
+  
+  .menu li.expanded > .submenu {
+    display: block;
+}
